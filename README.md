@@ -1,26 +1,31 @@
-# j
+# dogs
+
+  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
   ## Description
-  j
+  dogs dogs dogs
 
   ## Installation
-  dog
+  pet a dog
 
   ## Usage
-  cat
+  use the terminal to answer questions
 
   ## Languages
-  JavaScript,HTML,CSS
+  JavaScript
 
   ## Credit
-  jeralyn
+  ME
 
   ## Licenses
-  GNU General Public License v3.0
+
+  (https://opensource.org/licenses/Apache-2.0)
+  Apache License 2.0
 
   ## Test
   false
 
   ## Questions
-  Jbairoso
-  -Email: undefined
+  jbairoso@gmail.com
+  Please reach out to me if you have any questions:
+  -Email:
