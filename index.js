@@ -2,13 +2,11 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 
-const generateMarkdown = require("./src/page-template");
+const generatePage = require("./utils/generateMarkdown.js");
 
 // TODO: Create an array of questions for user input
-const questions = () => {
-  return inquirer
-    .prompt([
-      {
+const questions = [
+       { 
         type: "input",
         name: "name",
         message: "What is your name? (Required)",
@@ -35,7 +33,7 @@ const questions = () => {
       },
       {
         type: "input",
-        name: "Title",
+        name: "title",
         message: "What is the name of your project?",
         validate: (nameInput) => {
           if (nameInput) {
@@ -47,7 +45,7 @@ const questions = () => {
       },
       {
         type: "input",
-        name: "Description",
+        name: "description",
         message: "Provide some information about your project",
         validate: (nameInput) => {
           if (nameInput) {
@@ -101,11 +99,6 @@ const questions = () => {
         },
       },
       {
-        type: "confirm",
-        name: "test",
-        message: "Would you like to go the extra mile and write tests for your application? Provide examples on how to run them here",
-      },
-      {
         type: "checkbox",
         name: "licenses",
         message: "Choose a License",
@@ -126,20 +119,39 @@ const questions = () => {
           "The Unlicense",
         ],
       },
-     
-    ])
-    .then((userResponse) => {
-      console.log(userResponse);
+      {
+        type: "confirm",
+        name: "test",
+        message: "Would you like to go the extra mile and write tests for your application? Provide examples on how to run them here",
+      },
+      {
+          type: "input",
+          name:"questions",
+          message:"Please provide your email",
+      }
+];
+
+    //.then((userResponse) => {
+      //console.log(userResponse);
+    //});
+
+// TODO: Create a function to write README file
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, (err) =>{
+        if (err)
+        throw err;
+        console.log("Thank you for submitting details on your project!")
     });
 };
 
-// TODO: Create a function to write README file
-//function writeToFile(fileName, data) {}
-
 // TODO: Create a function to initialize app
 function init() {
-   
-}
+    inquirer.prompt(questions)
+    .then(function(userInput){
+        console.log(userInput)
+        writeToFile("README.md", generatePage(userInput));
+    }); 
+};
 
 // Function call to initialize app
-questions();
+init();
