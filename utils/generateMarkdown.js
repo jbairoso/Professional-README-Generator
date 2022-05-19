@@ -122,8 +122,11 @@ function generateMarkdown(data) {
   ${data.test}
 
   ## Questions
-  ${data.questions}
+  ${data.email}
   Please reach out to me if you have any questions:
+
+  ${data.githubName}
+  My GitHub
 `;
 }
 

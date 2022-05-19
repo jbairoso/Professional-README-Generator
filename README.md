@@ -1,26 +1,26 @@
-# dogs
+# Professional-README-Generator
 
-  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+  [![License](https://img.shields.io/badge/License-EPL_2.0-red.svg)](https://opensource.org/licenses/EPL-2.0)
 
   ## Description
-  dogs dogs dogs
+  creating a command line application to generate a high quality README using 
 
   ## Installation
-  pet a dog
+  from your terminal you will git clone my SSH link into your local device. From there you answer the question prompts.
 
   ## Usage
-  use the terminal to answer questions
+  Answer question prompts to generate a README
 
   ## Languages
-  JavaScript
+  
 
   ## Credit
   ME
 
   ## Licenses
 
-  (https://opensource.org/licenses/Apache-2.0)
-  Apache License 2.0
+  (https://opensource.org/licenses/EPL-2.0)
+  Eclipse Public License 2.0
 
   ## Test
   false
@@ -28,4 +28,6 @@
   ## Questions
   jbairoso@gmail.com
   Please reach out to me if you have any questions:
-  -Email:
+
+   https://github.com/jbairoso
+  My GitHub
