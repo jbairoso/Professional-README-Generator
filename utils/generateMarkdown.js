@@ -99,14 +99,14 @@ function generateMarkdown(data) {
   ${renderLicenseBadge(data.license)}
 
   ## Table of Contents:
-  -[Description](#description)
-  -[Installation](#installion)
-  -[Usage](#usage)
-  -[Languages](#languages)
-  -[Credit](#credit)
-  -[Licenses](#licenses)
-  -[Test](#test)
-  -[Questions](#questions)
+  1.[Description](#description)
+  2.[Installation](#installion)
+  3.[Usage](#usage)
+  4.[Languages](#languages)
+  5.[Credit](#credit)
+  6.[Licenses](#licenses)
+  7.[Test](#test)
+  8.[Questions](#questions)
 
 
   ## Description

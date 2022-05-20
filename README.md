@@ -1,37 +1,37 @@
-# hello
+# Professional README Generator
 
-  undefined
+  [![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
 
-  ## Table of Contents
-  -[Description](#description)
-  -[Installation](#installion)
-  -[Usage](#usage)
-  -[Languages](#languages)
-  -[Credit](#credit)
-  -[Licenses](#licenses)
-  -[Test](#test)
-  -[Questions](#questions)
+  ## Table of Contents:
+  1.[Description](#description)
+  2.[Installation](#installion)
+  3.[Usage](#usage)
+  4.[Languages](#languages)
+  5.[Credit](#credit)
+  6.[Licenses](#licenses)
+  7.[Test](#test)
+  8.[Questions](#questions)
 
 
   ## Description
-  hello
+  curating a high quality README from the terminal
 
   ## Installation
-  hello
+  go to my github repo for the project and do a git clone
 
   ## Usage
-  hello
+  open up the terminal and begin with "node index" then answer the following question prompts
 
   ## Languages
   JavaScript
 
   ## Credit
-  me
+  ME
 
   ## Licenses
 
-  undefined
-  
+  (https://opensource.org/licenses/MPL-2.0)
+  Mozilla Public License 2.0
 
   ## Test
   false
@@ -41,4 +41,4 @@
   jbairoso@gmail.com
 
   My GitHub
-  jbairoso
+  github.com/jbairoso
