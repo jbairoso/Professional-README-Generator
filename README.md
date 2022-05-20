@@ -14,13 +14,13 @@
 
 
   ## Description
-  a command line application that accepts user input
+  This is a command line application that accepts user input
 
   ## Installation
-  go to my github repo, git clone in your terminal, answer the prompt questions
+  go to my github repo, then git clone into your terminal, "npm i", "node index"
 
   ## Usage
-  answer the prompt questions and see your completed ReadMe at the end
+  Answer the questions and then you'll be provided with a professional ReadMe
 
   ## Languages
   JavaScript,Node
