@@ -163,7 +163,7 @@ function writeToFile(fileName, data) {
 function init() {
   inquirer.prompt(questions).then(function (userInput) {
     console.log(userInput);
-    writeToFile("README.md", generatePage(userInput));
+    writeToFile("./dist/README.md", generatePage(userInput));
   });
 }
 
