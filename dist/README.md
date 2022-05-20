@@ -1,6 +1,6 @@
-# ReadMe Generator
+# Professional README Generator 
 
-  undefined
+  [![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
 
   ## Table of Contents:
   1.[Description](#description)
@@ -17,10 +17,10 @@
   A command line application that accepts user input
 
   ## Installation
-  Go to my github repo, git clone in your terminal, install "npm i", input "node index"
+  Go to my github repo, git clone in your terminal, install "npm i", input"node index" to start question prompts
 
   ## Usage
-  Answer the question prompts and then you'll be provided with a ReadMe
+  Answer the questions and then you'll be provided with a readme that uses your information that you put in
 
   ## Languages
   JavaScript,Node
@@ -30,8 +30,8 @@
 
   ## Licenses
 
-  undefined
-  
+  (https://opensource.org/licenses/MPL-2.0)
+  Mozilla Public License 2.0
 
   ## Test
   false
@@ -42,3 +42,6 @@
 
   My GitHub
   https://github.com/jbairoso
+
+  ## Tutorial
+  
