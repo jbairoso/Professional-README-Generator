@@ -1,6 +1,6 @@
-# Professional README Generator
+# f
 
-  [![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+  
 
   ## Table of Contents:
   1.[Description](#description)
@@ -14,31 +14,31 @@
 
 
   ## Description
-  curating a high quality README from the terminal
+  s
 
   ## Installation
-  go to my github repo for the project and do a git clone
+  e
 
   ## Usage
-  open up the terminal and begin with "node index" then answer the following question prompts
+  w
 
   ## Languages
   JavaScript
 
   ## Credit
-  ME
+  e
 
   ## Licenses
 
-  (https://opensource.org/licenses/MPL-2.0)
-  Mozilla Public License 2.0
+  
+  None
 
   ## Test
   false
 
   ## Questions
   Please reach out to me if you have any questions:
-  jbairoso@gmail.com
+  eww
 
   My GitHub
-  github.com/jbairoso
+  erwe

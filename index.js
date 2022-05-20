@@ -124,8 +124,20 @@ const questions = [
     type: "confirm",
     name: "test",
     message:
-      "Would you like to go the extra mile and write tests for your application? Provide examples on how to run them here",
+      "Would you like to go the extra mile and write tests for your application?",
     default: true,
+  },
+  {
+    type: "input",
+    name: "testInfo",
+    message: "Provide examples on how to run them here:",
+    when: ({ test }) => {
+      if (test) {
+        return true;
+      } else {
+        return false;
+      }
+    },
   },
   {
     type: "input",
